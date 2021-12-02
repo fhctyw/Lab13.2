@@ -3,7 +3,7 @@
 #include <Windows.h>
 using namespace std;
 
-#define TASK2
+#define TASK1
 
 #define z 4
 #define INPUT(x) cin >> x
@@ -28,10 +28,6 @@ int NOD(int cnt, ...)
 	}
 	va_end(ptr);
 	return res;
-}
-
-template <typename ... Args> int ArgsCount(Args ... args) {
-	return sizeof...(args);
 }
 
 void main()
