@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "..\Lab13.2\Main.cpp"
+#include "..\Lab13.2.1\Main.cpp"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest
@@ -11,8 +11,8 @@ namespace UnitTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			int nod = NOD(2, 600, 250);
-			Assert::AreEqual(nod, 50);
+			int a = MAX(ABS(-3), 2);
+			Assert::AreEqual(a, 3);
 		}
 	};
 }
